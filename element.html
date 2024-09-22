@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Javascript
+    </title>
+</head>
+
+<body>
+
+    <p id="demo1"> </p>
+    <p id="demo2"> </p>
+    <p id="demo3"> </p>
+
+    <script>
+var sum;
+        function Addnum(x,y){
+             var z;
+             z=x+y;
+             return z;
+        }
+        var sub;
+function Substraction(p,y){
+    var w;
+    w=p-y;
+    return w;
+}
+   var divide;
+   function Divide(m,n){
+    var o;
+    o=m/n;
+    return o;
+   }
+     sum=Addnum(40,5); //argument
+     sub=Substraction(200,150);
+     divide=Divide(10,2);
+     
+document.getElementById("demo1").innerHTML="The sum is= " + sum;
+document.getElementById("demo2").innerHTML="The substraction is=" + sub;
+document.getElementById("demo3").innerHTML="The quotient is=" + divide;
+    </script>
+
+
+</body>
+
+</html>
